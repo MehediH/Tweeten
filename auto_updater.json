@@ -1,0 +1,23 @@
+{
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.0/Tweeten-darwin-x64.zip",
+	"new": [
+		"New setup animation",
+		"Settings has been completely revamped behind the scenes, which means <br>your existing settings might get reset with the new update</br>",
+		"You can now set Tweeten to be always on top of other windows (View > Toggle Always On Top / Ctrl + Shift + A)",
+		"You can now backup, import, and reset Tweeten settings",
+		"You can now ask Tweeten to ask you to save changes before closing settings",
+		"Minor UI improvements all around",
+		"Improved Settings UI",
+		"It is now much easier to identify when a new update is being downloaded"
+	],
+	"fixes": [
+		"Fixed the weird transition for the navigation menu which occurred when expanding it ",
+		"Fixed an issue which required two clicks to active an input box",
+		"Tweeten can now detect when you have already downloaded a new update, so it won't try to re-download it", 
+		"Fixed an issue which caused update downloads to get stuck forever", 
+		"Fixed an issue which caused the app to crash when exiting full screen mode"
+	],
+	"issues": [
+		"[Mac] Auto-updates do not work when app is on a non-writeable folder such as Downloads"
+	]
+}
