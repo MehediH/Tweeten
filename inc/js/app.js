@@ -49,6 +49,8 @@ $( document ).ready(function() {
                 }
 
             }
+
+            console.log(w64)
                         
             $("#download li a").each(function() {
                 if($(this).attr("href") == ""){
