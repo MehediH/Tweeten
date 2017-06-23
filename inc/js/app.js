@@ -50,13 +50,12 @@ $( document ).ready(function() {
 
             }
 
-            console.log(w64)
                         
             $("#download li a").each(function() {
                 if($(this).attr("href") == ""){
 
                     if($(this)[0].textContent.includes("macOS")){
-                        $(this).attr("href", mac)
+                        $(this).attr("href", mac) 
                     }
 
                     if($(this)[0].textContent.includes("64-bit")){
