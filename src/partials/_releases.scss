@@ -68,6 +68,15 @@
 	line-height: 1.4;
 	position: relative;
 	border-radius: 5px;
+
+	a{
+		color: #fff;
+		text-decoration: none;
+
+		&:hover{
+			opacity: 0.75;
+		}
+	}
 }
 
 .tweeten-release>li:nth-child(odd) .tweeten_tmlabel {
