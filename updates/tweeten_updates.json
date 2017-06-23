@@ -1,0 +1,29 @@
+{
+    "alpha": {
+        "title": "A new Tweeten",
+        "description": "<div class='update_content_tweeten'><p>Today is a big day for Tweeten. After more than 800 commits and hours of debugging, I’m excited to announce the release of a brand new Tweeten. You can get the new Tweeten from our brand new website at <a href="http://tweetenapp.com">tweetenapp.com</a>, and here's a list of all the new goodness:</p> <ul> <li>Completely re-written from the ground-up</li> <li>The new Tweeten is 50% lighter than the original Tweeten on Windows and takes less than 20 seconds to install on a new machine</li> <li>A significantly improved interface that offers a gorgeous tweeting experience</li> <li>A built-in emoji picker</li> <li>New privacy features: you can now hide DMs on the Direct Messages column</li> <li>Lots of new settings</li> <li>Filters</li> <li>GIF Zoom lets you get all the details on a GIF without hurting your eyeballs</li> <li>You can now automatically pause GIFs in columns</li> <li>You no longer need to update Tweeten by manually downloading a new file for every update</li> <li>Our new hotfix system lets us deliver quick fixes rapidly</li> <li>You can now paste images from your clipboard to upload</li> <li>Custom CSS support</li> <li>Touch Bar integration on Mac</li> </ul> <p>You can get a closer look at all the new things <a href="http://blog.tweetenapp.com/?p=83">here</a>. Please use make sure to <a href="https://twitter.com/TweetenApp">send feedback via Twitter</a>, or<a href="https://join.slack.com/tweeten/shared_invite/MjAzNDY0MjM0MjYzLTE0OTgyMjgxNjEtMjkxYjU0OWVjOA"> join our Slack channel here</a>. For bug reports, please use <a href="https://github.com/MehediH/Tweeten/issues/new">GitHub Issues on our new repo here.</a></p> <p>Enjoy.</p></div>",
+        "build": "50",
+        "download_url": "https://github.com/MehediH/Tweeten/releases/download/4.0.0",
+        "publish_date": "Friday, 23rd June, 2017"
+    },
+    "beta": {
+        "title": "A new Tweeten",
+        "description": "<div class='update_content_tweeten'><p>Today is a big day for Tweeten. After more than 800 commits and hours of debugging, I’m excited to announce the release of a brand new Tweeten. You can get the new Tweeten from our brand new website at <a href="http://tweetenapp.com">tweetenapp.com</a>, and here's a list of all the new goodness:</p> <ul> <li>Completely re-written from the ground-up</li> <li>The new Tweeten is 50% lighter than the original Tweeten on Windows and takes less than 20 seconds to install on a new machine</li> <li>A significantly improved interface that offers a gorgeous tweeting experience</li> <li>A built-in emoji picker</li> <li>New privacy features: you can now hide DMs on the Direct Messages column</li> <li>Lots of new settings</li> <li>Filters</li> <li>GIF Zoom lets you get all the details on a GIF without hurting your eyeballs</li> <li>You can now automatically pause GIFs in columns</li> <li>You no longer need to update Tweeten by manually downloading a new file for every update</li> <li>Our new hotfix system lets us deliver quick fixes rapidly</li> <li>You can now paste images from your clipboard to upload</li> <li>Custom CSS support</li> <li>Touch Bar integration on Mac</li> </ul> <p>You can get a closer look at all the new things <a href="http://blog.tweetenapp.com/?p=83">here</a>. Please use make sure to <a href="https://twitter.com/TweetenApp">send feedback via Twitter</a>, or<a href="https://join.slack.com/tweeten/shared_invite/MjAzNDY0MjM0MjYzLTE0OTgyMjgxNjEtMjkxYjU0OWVjOA"> join our Slack channel here</a>. For bug reports, please use <a href="https://github.com/MehediH/Tweeten/issues/new">GitHub Issues on our new repo here.</a></p> <p>Enjoy.</p></div>",
+        "build": "50",
+        "download_url": "https://github.com/MehediH/Tweeten/releases/download/4.0.0",
+        "publish_date": "Friday, 23rd June, 2017"
+    },
+    "chrome": {
+        "title": "Tweeten Beta 1.9.9",
+        "description": "<div class='update_content_tweeten'><p>Hi everyone,</p> <p class='changelog'>We are releasing Tweeten 1.9.9 with a design fix introduced by one of the recent TweetDeck updates.</p> <p class='changelog'>We are still working hard on a major update for Tweeten, and we can't wait to share it with you in a few months! As usual, if you have any feedback, please let us know via Twitter (@tweetenapp). Happy Tweeting! </p></div>",
+        "build": "1.9.9",
+        "publish_date": "Monday, 27 February, 2017"
+    },
+    "edge": {
+        "title": "Tweeten Beta 1.8.2",
+        "description": "<div class='update_content_tweeten'><p>Hi everyone,</p><p class='changelog'>Today, we are releasing Tweeten Beta 1.8.2 for Edge with a fix for TweetDeck's new improvements for the tweet actions. They have moved the tweet actions (like/rt buttons) to the left, and are now showing it by default. With 1.8.2, we've fixed the issue so that you don't see any weirdness on your timeline! You are welcome! :)</p><p class='changelog'>As usual, if you have any feedback, please let us know via Twitter (@tweetenapp). Happy Tweeting! </p></div>",
+        "build": "1.8.2",
+        "download_url": "http://tweeten.xyz/edge/releases/",
+        "publish_date": "Monday, 25th April, 2016. "
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "beta": {
+        "title": "Tweeten Beta 3.3.3",
+        "description": "<div class='update_content_tweeten'><p>Hi everyone,</p><p class='changelog'>We are releasing Tweeten 3.3.3 today with a couple of bug fixes:</p> <ul> <li>Add New Column box displayed weird buttons, should be fixed now</li> <li>Users using Tweeten's icons for Like/RT notifications had their formatting broken, should be fixed now</li> </ul> <p class='changelog'>We are working hard on a major update for Tweeten, and we can't wait to share it with you in a few months! As usual, if you have any feedback, please let us know via Twitter (@tweetenapp). Happy Tweeting! </p></div>",
+        "build": "40",
+        "download_url": "https://github.com/MehediH/TweetenSite/releases/download/3.3.3",
+        "publish_date": "Thursday, 12th January, 2017"
+    }
+}
