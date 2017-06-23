@@ -76,9 +76,11 @@
 	a{
 		color: #fff;
 		text-decoration: none;
+		opacity: 0.75;
+		transition: 0.1s all ease-in-out;
 
 		&:hover{
-			opacity: 0.75;
+			opacity: 1;
 		}
 	}
 }

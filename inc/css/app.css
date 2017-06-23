@@ -3390,9 +3390,11 @@ footer {
 
 .tweeten_tmlabel a {
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  opacity: 0.75;
+  transition: 0.1s all ease-in-out; }
   .tweeten_tmlabel a:hover {
-    opacity: 0.75; }
+    opacity: 1; }
 
 .tweeten-release > li:nth-child(odd) .tweeten_tmlabel {
   background: #006abe; }
