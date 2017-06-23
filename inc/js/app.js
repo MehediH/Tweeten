@@ -30,38 +30,38 @@ $( document ).ready(function() {
         });
     });
 
-    $.ajax({
-        url: "https://api.github.com/repos/MehediH/Tweeten/releases/latest",
-        dataType: "text",
-        success: function(data) {
-            var data = $.parseJSON(data);
-            var downloads = data["assets"]
-            var w64 = ""
-            var mac = ""
+    // $.ajax({
+    //     url: "https://api.github.com/repos/MehediH/Tweeten/releases/latest",
+    //     dataType: "text",
+    //     success: function(data) {
+    //         var data = $.parseJSON(data);
+    //         var downloads = data["assets"]
+    //         var w64 = ""
+    //         var mac = ""
 
-            for(download in downloads){
-                if(downloads[download].name.includes("darwin")){
-                    mac = downloads[download].browser_download_url;
-                }
+    //         for(download in downloads){
+    //             if(downloads[download].name.includes("darwin")){
+    //                 mac = downloads[download].browser_download_url;
+    //             }
 
-                if(downloads[download].name.includes("win32-x64")){
-                    w64 = downloads[download].browser_download_url;
-                }
+    //             if(downloads[download].name.includes("win32-x64")){
+    //                 w64 = downloads[download].browser_download_url;
+    //             }
 
-            }
+    //         }
                         
-            $("#download li a").each(function() {
-                if($(this).attr("href") == ""){
+    //         $("#download li a").each(function() {
+    //             if($(this).attr("href") == ""){
 
-                    if($(this)[0].textContent.includes("macOS")){
-                        $(this).attr("href", mac)
-                    }
+    //                 if($(this)[0].textContent.includes("macOS")){
+    //                     $(this).attr("href", mac)
+    //                 }
 
-                    if($(this)[0].textContent.includes("64-bit")){
-                        $(this).attr("href", w64)
-                    }
-                }
-            })
-        }
-     });
+    //                 if($(this)[0].textContent.includes("64-bit")){
+    //                     $(this).attr("href", w64)
+    //                 }
+    //             }
+    //         })
+    //     }
+    //  });
 });
