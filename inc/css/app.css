@@ -3387,6 +3387,11 @@ footer {
   line-height: 1.4;
   position: relative;
   border-radius: 5px; }
+  .tweeten-release > li .tweeten_tmlabel a {
+    color: #fff;
+    text-decoration: none; }
+    .tweeten-release > li .tweeten_tmlabel a:hover {
+      opacity: 0.75; }
 
 .tweeten-release > li:nth-child(odd) .tweeten_tmlabel {
   background: #006abe; }
