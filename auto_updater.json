@@ -1,5 +1,7 @@
 {
 	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.0/Tweeten-darwin-x64.zip",
+	"version": "4.0.0",
+	"message": "The brand new Tweeten is here! Here's a list of things that's new:"
 	"new": [
 		"Completely re-written from the ground-up",
 		"The new Tweeten is 50% lighter than the original Tweeten on Windows and takes less than 20 seconds to install on a new machine",
