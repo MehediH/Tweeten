@@ -14,6 +14,6 @@
 		"[Windows] The app no longer requires you to have the 'Show app icon on tray' for the 'Minimize to tray' option to work",
 		"[Mac] Fixed the issue which prevented users from pasting their passwords into login window",
 		"[Mac] Added minimize/hide shortcuts",
-		"Removed the column shaking animation
+		"Removed the column shaking animation"
 	]
 }
