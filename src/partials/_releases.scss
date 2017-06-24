@@ -207,10 +207,16 @@
 		display: inline-block;
 		margin-top: 10px;
 		font-size: 15px;
+		display: inline-block;
+		overflow: hidden;
 		&:hover {
 			color: $accent;
 			text-decoration: none;
 			transform: translate(0, -4px);
 		}
 	}
+}
+
+.download-release-alt{
+	margin-bottom: 15px;
 }

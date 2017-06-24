@@ -3066,7 +3066,7 @@ header {
     header .main h1 {
       display: none;
       font-size: 25px; }
-    header .main .alt {
+    header .main .alt, header .main .donthide {
       display: block;
       font-size: 22px; }
     header .main p {
@@ -3499,10 +3499,15 @@ footer {
     background-color: #fff;
     display: inline-block;
     margin-top: 10px;
-    font-size: 15px; }
+    font-size: 15px;
+    display: inline-block;
+    overflow: hidden; }
     .download-release .dl-link:hover {
       color: #0078D7;
       text-decoration: none;
       transform: translate(0, -4px); }
+
+.download-release-alt {
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=app.css.map */
