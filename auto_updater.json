@@ -3,6 +3,7 @@
 	"version": "4.0.1",
 	"message": "The brand new Tweeten is here! Here's a list of things that's new:",
 	"new": [
+		"If the auto update isn't working, please download it from here <a href="http://tweetenapp.com">tweetenapp.com</a>",
 		"You can now download Twitter Videos",
 		"Added more options for font sizes",
 		"Added minimize/hide shortcuts for Mac"
