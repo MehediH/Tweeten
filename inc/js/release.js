@@ -33,7 +33,7 @@ $( document ).ready(function() {
             dataType: "text",
             success: function(data) {
                 var data = $.parseJSON(data);
-                console.log(data)
+
                 if(data.length != 0){
                     $("header .donthide").text(data.name)
                     $("header p").text("Tweeten " + data.tag_name + " changelog, and download links.")
@@ -46,17 +46,17 @@ $( document ).ready(function() {
                     var downloads = data["assets"]
                     var w64 = ""
                     var mac = ""
-
+                    
                     for(download in downloads){
                         if(downloads[download].name.includes("darwin")){
                             mac = downloads[download].browser_download_url;
                         }
 
-                        if(downloads[download].name.includes("win32-x64")){
+                        if(downloads[download].name.includes("TweetenSetup")){
                             w64 = downloads[download].browser_download_url;
                         }
-
                     }
+
                                 
                     $(".dl-link").each(function() {
                         if($(this).attr("href") == ""){
@@ -121,7 +121,7 @@ $( document ).ready(function() {
                                 mac = downloads[download].browser_download_url;
                             }
 
-                            if(downloads[download].name.includes("win32-x64")){
+                            if(downloads[download].name.includes("TweetenSetup")){
                                 w64 = downloads[download].browser_download_url;
                             }
 
