@@ -208,7 +208,7 @@ header {
                 width: 48% !important;
                 float: left !important;
                 margin-right: 1% !important;
-                height: 250px !important;
+                height: 265px !important;
                 margin-bottom: 5px !important;
                 background-color: transparent !important;
                 svg {
@@ -246,6 +246,14 @@ header {
 
         li{
             width: 33.33% !important;
+        }
+    }
+    .feature-switcher{
+        display: block !important;
+
+        li{
+            width: 49% !important;
+            background-color: transparent !important;
         }
     }
 }
@@ -349,6 +357,7 @@ header {
             display: -webkit-flex;
             display: flex;
             justify-content: space-between;
+            margin-bottom: 5px;
             li {
                 width: 25%;
                 float: left;
@@ -367,7 +376,8 @@ header {
                 }
                 svg {
                     display: block;
-                    width: 60px;
+                    width: 55px;
+                    padding-bottom: 10px;
                 }
             }
         }
@@ -516,4 +526,11 @@ footer {
 
 .emr {
     display: none;
+}
+
+@media(min-width:768px){
+    .gif img{
+        width: 95% !important;
+        float: right;
+    }
 }

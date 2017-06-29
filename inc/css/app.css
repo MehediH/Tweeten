@@ -3105,7 +3105,7 @@ header {
         width: 48% !important;
         float: left !important;
         margin-right: 1% !important;
-        height: 250px !important;
+        height: 265px !important;
         margin-bottom: 5px !important;
         background-color: transparent !important; }
         .feature ul li svg {
@@ -3131,7 +3131,13 @@ header {
     #download img {
       width: 100% !important; }
     #download li {
-      width: 33.33% !important; } }
+      width: 33.33% !important; }
+
+  .feature-switcher {
+    display: block !important; }
+    .feature-switcher li {
+      width: 49% !important;
+      background-color: transparent !important; } }
 @media (max-width: 520px) {
   #download li {
     width: 100% !important; } }
@@ -3199,7 +3205,8 @@ header {
       display: -ms-flex;
       display: -webkit-flex;
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      margin-bottom: 5px; }
       .main-features .feature ul li {
         width: 25%;
         float: left;
@@ -3216,7 +3223,8 @@ header {
           padding: 0px; }
         .main-features .feature ul li svg {
           display: block;
-          width: 60px; }
+          width: 55px;
+          padding-bottom: 10px; }
   .main-features .block {
     margin: 20px 0;
     width: 100%;
@@ -3331,6 +3339,10 @@ footer {
 .emr {
   display: none; }
 
+@media (min-width: 768px) {
+  .gif img {
+    width: 95% !important;
+    float: right; } }
 .tweeten-release {
   margin-top: 60px;
   padding: 0;
