@@ -1,20 +1,16 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.1/Tweeten-darwin-x64.zip",
-	"version": "4.0.1",
-	"message": "The brand new Tweeten is here! Here's a list of things that's new:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.2/Tweeten-darwin-x64.zip",
+	"version": "4.0.2",
+	"message": "Tweeten 4.0.2 is now out with a bunch of fixes and improvements:",
 	"new": [
-		"If the auto update isn't working, please download it from here <a href='http://tweetenapp.com'>tweetenapp.com</a>",
-		"You can now download Twitter Videos",
-		"Added more options for font sizes",
-		"Added minimize/hide shortcuts for Mac"
+		"Tweeten now lets you reset your Twitter password from within the app",
+		"Backup codes for two-factor authentication are now support",
+		"The alerts in the login window are less obtrusive now",
+		"Improved the loading animation and the login window animations",
+		"Improved Windows Store detection for auto updates"
 	],
 	"fixes": [
-		"[Windows] Fixed an issue which prevented the app from removing older update files after updating to a newer app",
-		"[Mac] Fixed an issue which resulted in the app not focusing on the compose box when using Touch Bar functions",
-		"[Windows] Fixed an issue which resulted in the app not focusing on the compose box when using shortcuts from the tray icon",
-		"[Windows] The app no longer requires you to have the 'Show app icon on tray' for the 'Minimize to tray' option to work",
-		"[Mac] Fixed the issue which prevented users from pasting their passwords into login window",
-		"[Mac] Added minimize/hide shortcuts",
-		"Removed the column shaking animation"
+		"Fixed the copy/paste issue for the input fields on the login page for Mac users",
+		"Tweeten no longer looks bigger than other app icons on your Mac's dock"
 	]
 }
