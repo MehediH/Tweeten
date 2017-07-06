@@ -3343,7 +3343,7 @@ footer {
   .gif img {
     width: 95% !important;
     float: right; } }
-.tweeten-release {
+.tweeten-release, .privacy{
   margin-top: 60px;
   padding: 0;
   list-style: none;
