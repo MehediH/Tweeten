@@ -9,6 +9,6 @@
 		"Fixed an issue which caused the dark theme to break in some parts",
 		"Fixed the Tweeten icon on Mac, should show up properly now",
 		"Fixed an issue where you a column's styling would break for a split second when going back from like and RT actitives",
-		'Fixed the issue which caused developer windows to open up in the welcome page"
+		"Fixed the issue which caused developer windows to open up in the welcome page"
 	]
 }
