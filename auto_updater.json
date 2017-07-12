@@ -1,16 +1,14 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.2/Tweeten-darwin-x64.zip",
-	"version": "4.0.2",
-	"message": "Tweeten 4.0.2 is now out with a bunch of fixes and improvements:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.3/Tweeten-darwin-x64.zip",
+	"version": "4.0.3",
+	"message": "Tweeten 4.0.3 is now out with some fixes and improvements:",
 	"new": [
-		"Tweeten now lets you reset your Twitter password from within the app",
-		"Backup codes for two-factor authentication are now support",
-		"The alerts in the login window are less obtrusive now",
-		"Improved the loading animation and the login window animations",
-		"Improved Windows Store detection for auto updates"
+		"Improved the hotifixing system to be theme-aware"
 	],
 	"fixes": [
-		"Fixed the copy/paste issue for the input fields on the login page for Mac users",
-		"Tweeten no longer looks bigger than other app icons on your Mac's dock"
+		"Fixed an issue which caused the dark theme to break in some parts",
+		"Fixed the Tweeten icon on Mac, should show up properly now",
+		"Fixed an issue where you a column's styling would break for a split second when going back from like and RT actitives,
+		'Fixed the issue which caused developer windows to open up in the welcome page"
 	]
 }
