@@ -1,14 +1,19 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.3/Tweeten-darwin-x64.zip",
-	"version": "4.0.3",
-	"message": "Tweeten 4.0.3 is now out with some fixes and improvements:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.1.0/tweeten-darwin-x64.zip",
+	"version": "4.1.0",
+	"message": "Flexible Columns are here, along with more in Tweeten 4.1:",
 	"new": [
-		"Improved the hotifixing system to be theme-aware"
+		"Flexible Columns: You can now set different sizes for every column. Use the new settings UI to make your columns bigger or smaller, and see the changes in real-time.",
+		"Notification and status updates have been redesigned",
+		"Accounts UI has been redesigned",
+		"Improved user interface for video uploads" 
 	],
 	"fixes": [
-		"Fixed an issue which caused the dark theme to break in some parts",
-		"Fixed the Tweeten icon on Mac, should show up properly now",
-		"Fixed an issue where you a column's styling would break for a split second when going back from like and RT actitives",
-		"Fixed the issue which caused developer windows to open up in the welcome page"
+		"Minor design fixes for direct messages",
+		"UI fixes for some modals",
+		"Other small UI fixes throughout the app" 
+	],
+	"issues": [
+		"Old reply system no longer works"
 	]
 }
