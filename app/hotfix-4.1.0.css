@@ -23,7 +23,7 @@
 
 .js-modal-context .s-profile .js-item-launch[data-type^='tweets']{
     .icon-twitter-bird{
-        margin-top: 15px;
+        margin-top: 15px !important;
     }
 }
 
