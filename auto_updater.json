@@ -1,19 +1,15 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.1.0/tweeten-darwin-x64.zip",
-	"version": "4.1.0",
-	"message": "Flexible Columns are here, along with more in Tweeten 4.1:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.2.0/tweeten-darwin-x64.zip",
+	"version": "4.2.0",
+	"message": "GIF Search is here! Here's what's new in Tweeten 4.2:",
 	"new": [
-		"Flexible Columns: You can now set different sizes for every column. Use the new settings UI to make your columns bigger or smaller, and see the changes in real-time.",
-		"Notification and status updates have been redesigned",
-		"Accounts UI has been redesigned",
-		"Improved user interface for video uploads" 
+		"GIF Search: itshappening.gif. We have completely rebuild the GIF search feature from the ground up to offer a cleaner and much faster experience.",
+		"Flexible Columns: You can now input any width for each column on Tweeten's Flexible Columns feature from the Settings page. This means you can now have a column that's only 50 pixels wide or a column that's 2000 pixels wide.",
+		"280 characters: Tweeten now lets you bring back the numerical character count for tweets.",
+		"You can also now donate and support Tweeten's development using the Donate link from the context menu." 
 	],
 	"fixes": [
-		"Minor design fixes for direct messages",
-		"UI fixes for some modals",
-		"Other small UI fixes throughout the app" 
-	],
-	"issues": [
-		"Old reply system no longer works"
+		"Minor design fixes throughout the app",
+		"UI fixes for some modals"
 	]
 }
