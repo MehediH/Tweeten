@@ -1,20 +1,19 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.0.1/Tweeten-darwin-x64.zip",
-	"version": "4.0.1",
-	"message": "The brand new Tweeten is here! Here's a list of things that's new:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.1.0/tweeten-darwin-x64.zip",
+	"version": "4.1.0",
+	"message": "Flexible Columns are here, along with more in Tweeten 4.1:",
 	"new": [
-		"If the auto update isn't working, please download it from here <a href='http://tweetenapp.com'>tweetenapp.com</a>",
-		"You can now download Twitter Videos",
-		"Added more options for font sizes",
-		"Added minimize/hide shortcuts for Mac"
+		"Flexible Columns: You can now set different sizes for every column. Use the new settings UI to make your columns bigger or smaller, and see the changes in real-time.",
+		"Notification and status updates have been redesigned",
+		"Accounts UI has been redesigned",
+		"Improved user interface for video uploads" 
 	],
 	"fixes": [
-		"[Windows] Fixed an issue which prevented the app from removing older update files after updating to a newer app",
-		"[Mac] Fixed an issue which resulted in the app not focusing on the compose box when using Touch Bar functions",
-		"[Windows] Fixed an issue which resulted in the app not focusing on the compose box when using shortcuts from the tray icon",
-		"[Windows] The app no longer requires you to have the 'Show app icon on tray' for the 'Minimize to tray' option to work",
-		"[Mac] Fixed the issue which prevented users from pasting their passwords into login window",
-		"[Mac] Added minimize/hide shortcuts",
-		"Removed the column shaking animation"
+		"Minor design fixes for direct messages",
+		"UI fixes for some modals",
+		"Other small UI fixes throughout the app" 
+	],
+	"issues": [
+		"Old reply system no longer works"
 	]
 }

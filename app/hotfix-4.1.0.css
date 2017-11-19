@@ -1,0 +1,45 @@
+.js-modals-container .s-profile{
+    float: left;
+    margin-top: 0px !important;
+}
+
+.js-modal-context .s-profile .modal-content.position-rel.is-inverted-dark{
+    margin: 0px !important;
+}
+
+.js-modal-inner.mdl.margin-v--20.s-fluid.prf.s-tall-fixed.s-profile.is-inverted-dark{
+    margin-top: 0px !important;
+}
+
+.js-modals-container .s-profile .prf-header .width-p--85.margin-a-auto.position-rel.padding-b--20{
+    z-index: 999;
+ 
+}
+
+.js-modals-container .prf .js-profile-columns ul li{
+    width: 49% !important;
+    margin-bottom: 8px !important;
+}
+
+.js-modal-context .s-profile .js-item-launch[data-type^='tweets'] .icon-twitter-bird{
+    margin-top: 15px !important;
+}
+
+html.dark .prf .lst-profile a:hover span{
+    color: #fff !important;
+    opacity: 0.75;
+}
+
+html.dark .is-inverted-dark .stream-item {
+    background-color: rgb(23, 25, 27) !important;
+}
+
+html.dark .cmp-replyto{
+    border-top: 0px !important;
+    background-color: rgb(23, 25, 27) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+html.dark .cmp-replyto .tweet-text{
+    opacity: 0.75 !important;
+}
