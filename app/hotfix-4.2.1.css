@@ -1,3 +1,7 @@
 .tweet-detail-action-item .heartsprite {
     margin-top: 10px !important;
 }
+
+.js-modal .js-column{
+    width: 100% !important;
+}
