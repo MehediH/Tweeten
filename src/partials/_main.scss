@@ -126,6 +126,32 @@ header {
             transform: translate(0, -4px);
         }
     }
+
+    .donate-container{
+        position: absolute;
+        bottom: -20px;
+    }
+
+    .donate{
+        padding: 10px 20px;
+        display: block;
+        overflow: hidden;
+        background-color: $accent;
+        color: #fff !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transition: box-shadow .35s ease-out, transform .3s ease-out, opacity .2s ease-out;
+        cursor: pointer;
+        display: block;
+        margin-right: 10px;
+        float: left;
+
+        &:hover {
+            transform: translate(0, -4px);
+        }
+    }
 }
 
 @media(max-width: 1199px) {
