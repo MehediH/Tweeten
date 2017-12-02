@@ -1,15 +1,13 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.2.1/tweeten-darwin-x64.zip",
-	"version": "4.2.1",
-	"message": "GIF Search is here! Here's what's new in Tweeten 4.2.1:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.2.2/tweeten-darwin-x64.zip",
+	"version": "4.2.2",
+	"message": "Tweeten 4.2.2 is now out with some enhancements",
 	"new": [
-		"GIF Search: Now you can directly upload GIFs to Tweeten without needing to save them to your device and manually upload to your tweets. Thanks to the folks at BetterTweetDeck for this!",
-		"Flexible Columns: Reset all of your column sizes, and bring them back to their original size with a single click."
+		"You can now support Tweeten via Patreon"
 	],
 	"fixes": [
-		"Improved profile UI",
-		"Improved UI for Retweet, Like from accounts, Follow from accounts modals",
-		"Removed Old Reply Style feature",
-		"Fixed a bug where the columns would move slightly after the app loads"
+		"Fixed an issue where GIF Search would remove the tweet that you are replying to after adding a new GIF",
+		"Fixed an issue where the like/favorite icon's placement would be visually incorrect",
+		"Fixed an issue where the columns on modals wouldn't take up the full space"
 	]
 }
