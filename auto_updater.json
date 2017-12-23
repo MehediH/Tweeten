@@ -1,13 +1,16 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.2.2/tweeten-darwin-x64.zip",
-	"version": "4.2.2",
-	"message": "Tweeten 4.2.2 is now out with some enhancements",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.0/tweeten-darwin-x64.zip",
+	"version": "4.3.0",
+	"message": "Tweeten 4.3 is out today. It has a lot of new things. Seriously",
 	"new": [
-		"You can now support Tweeten via Patreon"
+		"Windows 10 users, Tweeten now has a beautiful new titlebar: it works exactly like the default Windows titlebar, but it looks way better than ever before. Not a fan? Go to settings and feel free to disable it.",
+		"Flexible Columns were a terrible idea: With 4.3, we are bringing back the old way of configuring the width of columns, plus with the ability to enter any value you want.",
+		"Settings 1.5: Completely re-built how Tweeten's settings are handled. This means 1) you no longer have to manually restart the app when tweaking settings like hardware acceleration, tray options, etc. 2) the design of the settings dialog has been slightly tweaked. 3) that's it.",
+		"Threads: Tweet threads now have a better UI on TweetDeck, making it easier to go through tweets on a thread that you are probably wasting time reading.",
+		"Say goodbye to the TweetDeck loading screen: you will only see the Tweeten loading screen from now on, rather than seeing the TweetDeck loading screen along with the Tweeten loading screen. It's much nicer now.",
+		"Design: As usual, lots of minor UI-related fixes throughout the app"
 	],
 	"fixes": [
-		"Fixed an issue where GIF Search would remove the tweet that you are replying to after adding a new GIF",
-		"Fixed an issue where the like/favorite icon's placement would be visually incorrect",
-		"Fixed an issue where the columns on modals wouldn't take up the full space"
+		"Tweeten is bug-free for the most part."
 	]
 }
