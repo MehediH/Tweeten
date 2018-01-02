@@ -1,16 +1,16 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.0/tweeten-darwin-x64.zip",
-	"version": "4.3.0",
-	"message": "Tweeten 4.3 is out today. It has a lot of new things. Seriously",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.1/tweeten-darwin-x64.zip",
+	"version": "4.3.1",
+	"message": "Happy New Year! Some sweet enhancements are coming to Tweeten today:",
 	"new": [
-		"Windows 10 users, Tweeten now has a beautiful new titlebar: it works exactly like the default Windows titlebar, but it looks way better than ever before. Not a fan? Go to settings and feel free to disable it.",
-		"Flexible Columns were a terrible idea: With 4.3, we are bringing back the old way of configuring the width of columns, plus with the ability to enter any value you want.",
-		"Settings 1.5: Completely re-built how Tweeten's settings are handled. This means 1) you no longer have to manually restart the app when tweaking settings like hardware acceleration, tray options, etc. 2) the design of the settings dialog has been slightly tweaked. 3) that's it.",
-		"Threads: Tweet threads now have a better UI on TweetDeck, making it easier to go through tweets on a thread that you are probably wasting time reading.",
-		"Say goodbye to the TweetDeck loading screen: you will only see the Tweeten loading screen from now on, rather than seeing the TweetDeck loading screen along with the Tweeten loading screen. It's much nicer now.",
-		"Design: As usual, lots of minor UI-related fixes throughout the app"
+		"2018",
+		"Syncing: Tweeten now syncs your theme, font, and some other settings across devices and TweetDeck without you needing to do anything. It's that simple.",
+        "Filters: Your TweetDeck/Twitter filters now automatically sync on Tweeten, which means your TweetDeck filters will no longer get destroyed as you start using Tweeten. EXTREMELY sorry about that!"
 	],
 	"fixes": [
-		"Tweeten is bug-free for the most part."
+        "Removed 2017",
+        "GIF previews are no longer huge, so you can now actually close them. Plus, hitting the Esc key now automatically closes the preview.",
+        "Fixed an issue where the new loading screen would be stuck for some users.",
+        "Fixed an issue which prevented Windows 10 users from closing media previews using the close icon."
 	]
 }
