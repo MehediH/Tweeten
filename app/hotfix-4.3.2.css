@@ -5,3 +5,13 @@
  .dark .column-nav-link {
   color: #fff !important;
  }
+
+.dark #actions-modal .mdl.cmp .bg-twitter-lightest-gray{
+      background-color: #17191b !important;
+    border: 0px !important;
+}
+
+.dark #actions-modal .mdl.cmp {
+      background-color: #17191b !important;
+}
+
