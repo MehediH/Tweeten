@@ -22,3 +22,7 @@
 .dark .column-options .button-tray {
     background-color: #1b1d1f !important;
 }
+
+.dark .js-accounts-column-holder .js-account-manager-container{
+  background-color: #17191b !important;
+}
