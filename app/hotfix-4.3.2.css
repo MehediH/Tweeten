@@ -18,3 +18,7 @@
 .dark .column-type-message .rpl{
   background-color: #17191b !important;
 }
+
+.dark .column-options .button-tray {
+    background-color: #1b1d1f !important;
+}
