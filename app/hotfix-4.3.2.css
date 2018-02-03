@@ -6,7 +6,7 @@
   color: #fff !important;
  }
 
-.dark #actions-modal .mdl.cmp .bg-twitter-lightest-gray{
+.dark #actions-modal .mdl .cmp .bg-twitter-lightest-gray{
       background-color: #17191b !important;
     border: 0px !important;
 }
@@ -30,3 +30,5 @@
 .dark .column{
       background-color: #17191b !important;
 }
+
+
