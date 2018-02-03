@@ -26,3 +26,7 @@
 .dark .js-accounts-column-holder .js-account-manager-container{
   background-color: #17191b !important;
 }
+
+.dark .column{
+      background-color: #17191b !important;
+}
