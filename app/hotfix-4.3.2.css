@@ -33,13 +33,13 @@
 
 
 .js-app .js-column article[data-key^='favorite_'] .activity-header .nbfc, .js-app .js-column article[data-key^='retweet_'] .activity-header .nbfc {
-    position: absolute !important;
-    top: 10px !important; 
-    left: 68px !important;  
+    position: initial !important;
+    top: 0 !important; 
+    left: 0 !important;  
 }
 
 .js-app .js-column article[data-key^='favorite_'] .activity-header .js-timestamp, .js-app .js-column article[data-key^='retweet_'] .activity-header .js-timestamp {
-    float: right !important;
-    position: absolute !important;
-    right: 10px !important;
+    float: none !important;
+    position: initial !important;
+    right: 0 !important;
 }
