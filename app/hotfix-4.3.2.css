@@ -32,3 +32,14 @@
 }
 
 
+.js-app .js-column article[data-key^='favorite_'] .activity-header .nbfc, .js-app .js-column article[data-key^='retweet_'] .activity-header .nbfc {
+    position: absolute !important;
+    top: 10px !important; 
+    left: 68px !important;  
+}
+
+.js-app .js-column article[data-key^='favorite_'] .activity-header .js-timestamp, .js-app .js-column article[data-key^='retweet_'] .activity-header .js-timestamp {
+    float: right !important;
+    position: absolute !important;
+    right: 10px !important;
+}
