@@ -1,17 +1,10 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.2/tweeten-darwin-x64.zip",
-	"version": "4.3.2",
-	"message": "Tweeten 4.3.2 is rolling out with some minor fixes:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.3/tweeten-darwin-x64.zip",
+	"version": "4.3.3",
+	"message": "Tweeten 4.3.3 is rolling out with some minor fixes:",
 	"new": [
-		"Filters: We have fixed a bunch of issues related to how Tweeten manages filters in order to improve stability and reliability of the feature. Things should be much better. Sorry for the inconveniences caused by the recent updates.",
-        "Added a couple of visual cues to the loading screen to better indicate when something is wrong, or when your network is potentially slow.",
-		"The custom title bar now works better when the app is full-screened.",
-		"The donation dialog no longer opens up instantly for brand new users -- instead, it will only open up after you use Tweeten for a few times.",
-		"The minimum width of the app now correlates with the column width setting.",
-		"Added a new mode which will help us debug issues more quickly and easily."
-	],
-	"fixes": [
-		"For people with way too many accounts: the Like From Accounts and Follow From Accounts should now be scrollable once again!",
-        "Minor UI fixes on the Accounts tab"
+		"Tweaks to prepare for release of new Chrome extension",
+		"Improved fixes for the new TweetDeck dark blue theme",
+		"Ability to disable God Mode"
 	]
 }
