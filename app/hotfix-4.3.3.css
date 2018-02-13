@@ -1,0 +1,8 @@
+.dark .stream-item .detail-view-inline-text{
+  background-color: rgb(28, 30, 33) !important;
+}
+
+.dark .mdl .stream-item{
+  background-color: rgb(23, 25, 27) !important;
+  border: 0px !important;
+}
