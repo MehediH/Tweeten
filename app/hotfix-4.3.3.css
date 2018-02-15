@@ -37,7 +37,8 @@
   color: #fff !important;
 }
 
-.prf-follow-state .js-action-unfollow{
+.prf-follow-state .js-action-unfollow:hover{
+  opacity: 1 !important;
   background-color: #a01744 !important;
 }
 
