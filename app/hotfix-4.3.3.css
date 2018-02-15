@@ -40,3 +40,7 @@
 .prf-follow-state .js-action-unfollow{
   background-color: #a01744 !important;
 }
+
+.ptf-follow-state .label{
+  color: #fff !important;
+}
