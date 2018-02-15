@@ -36,3 +36,7 @@
 .js-modals-container .prf .prf-meta .prf-follow-state .follow-combo button, .js-modals-container .prf .prf-meta .prf-follow-state .js-follow-button i{
   color: #fff !important;
 }
+
+.prf-follow-state .js-action-unfollow{
+  background-color: #a01744 !important;
+}
