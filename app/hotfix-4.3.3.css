@@ -25,3 +25,10 @@
 .js-modals-container .prf .prf-meta .prf-follow-state .js-action-follow .js-dropdown .caret{
   display: none !important;
 }
+
+.js-modals-container .prf .prf-meta .prf-follow-state .follow-combo button, .js-modals-container .prf .prf-meta .prf-follow-state .js-follow-button{
+  background-color: transparent !important;
+  float: right !important;
+  width: auto !important;
+  margin-right: 0px !important;
+}
