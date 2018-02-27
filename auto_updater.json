@@ -1,10 +1,12 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.3/tweeten-darwin-x64.zip",
-	"version": "4.3.3",
-	"message": "Tweeten 4.3.3 is rolling out with some minor fixes:",
-	"new": [
-		"Tweaks to prepare for release of new Chrome extension",
-		"Improved fixes for the new TweetDeck dark blue theme",
-		"Ability to disable God Mode"
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.4/tweeten-darwin-x64.zip",
+	"version": "4.3.4",
+	"message": "Tweeten 4.3.4 is rolling out with some minor fixes:",
+	"fixes": [
+		"Fixed an issue that prevented new users from logging into the app properly",
+		"Fixed an issue that prevented users from using the app when they are required to re-login with TweetDeck",
+		"Tweeten now shows up under its own folder within the Windows Start Menu instead of under GitHub Inc.",
+		"Re-implemented how God Mode works",
+		"UI tweaks"
 	]
 }
