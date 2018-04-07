@@ -1,12 +1,15 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.3.4/tweeten-darwin-x64.zip",
-	"version": "4.3.4",
-	"message": "Tweeten 4.3.4 is rolling out with some minor fixes:",
-	"fixes": [
-		"Fixed an issue that prevented new users from logging into the app properly",
-		"Fixed an issue that prevented users from using the app when they are required to re-login with TweetDeck",
-		"Tweeten now shows up under its own folder within the Windows Start Menu instead of under GitHub Inc.",
-		"Re-implemented how God Mode works",
-		"UI tweaks"
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.4.0/tweeten-darwin-x64.zip",
+	"version": "4.4.0",
+	"message": "A big Tweeten update is here!",
+	"new": [
+		"Tweeten is now fully responsive and works beautifully even when you make the window narrow.",
+		"Replaced TweetDeck's new rounded UI with the classic Tweeten square UI.",		
+		"User columns now show the user’s profile picture on the navigation instead of an icon.",
+		"You can now display profile pictures for each column on the navigation.",
+		"Tweeten can now automagically detect when it’s off-screen, and reposition itself.",
+		"Always On Top mode now notifies you when it's enabled/disabled.",
+		"Tweeten's Settings window now automagically repositions itself when it's off-screen, or partially cut off.",
+		"Lots of minor UI fixes throughout the app."
 	]
 }
