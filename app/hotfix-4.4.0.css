@@ -1,3 +1,7 @@
 .tweeten-user-img, .tweeten-user-img-mini{
   display: none !important;
  }
+
+.js-column-nav-list .includes-profile-img .icon-user {
+    display: block !important;
+}
