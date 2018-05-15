@@ -5,3 +5,7 @@
 .js-column-nav-list .includes-profile-img .icon-user {
     display: block !important;
 }
+
+.column-heading{
+  margin-left: 10px !important;
+}
