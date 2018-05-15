@@ -1,15 +1,8 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.4.0/tweeten-darwin-x64.zip",
-	"version": "4.4.0",
-	"message": "A big Tweeten update is here!",
-	"new": [
-		"Tweeten is now fully responsive and works beautifully even when you make the window narrow.",
-		"Replaced TweetDeck's new rounded UI with the classic Tweeten square UI.",		
-		"User columns now show the user’s profile picture on the navigation instead of an icon.",
-		"You can now display profile pictures for each column on the navigation.",
-		"Tweeten can now automagically detect when it’s off-screen, and reposition itself.",
-		"Always On Top mode now notifies you when it's enabled/disabled.",
-		"Tweeten's Settings window now automagically repositions itself when it's off-screen, or partially cut off.",
-		"Lots of minor UI fixes throughout the app."
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.4.1/tweeten-darwin-x64.zip",
+	"version": "4.4.1",
+	"message": "TweetDeck Update",
+	"fixes": [
+		"Twitter today rolled out a new update to TweetDeck which broke Tweeten. This update fixes the issue." 
 	]
 }
