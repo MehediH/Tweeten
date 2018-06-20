@@ -4,5 +4,6 @@
 	"message": "TweetDeck Update",
 	"fixes": [
 		"Twitter today rolled out a new update to TweetDeck which broke Tweeten. This update fixes the issue." 
-	]
+	],
+	"warning": "Some profile-related user interface may be broken. We are actively working on a hotfix."
 }
