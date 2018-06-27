@@ -1,9 +1,16 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.4.1/tweeten-darwin-x64.zip",
-	"version": "4.4.1",
-	"message": "TweetDeck Update",
-	"fixes": [
-		"Twitter today rolled out a new update to TweetDeck which broke Tweeten. This update fixes the issue." 
-	],
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.5.0/tweeten-darwin-x64.zip",
+	"version": "4.5.0",
+	"message": "A big new Tweeten update is here. It's almost like a brand new Tweeten. Here's what's new.",
+	"new": [
+		"Say hello to Tweeten Black: A beautiful new dark theme that is full of deep blacks, offering a super sexy tweeting experience that you won't get anywhere else. Now on Tweeten. For free.",
+		"A new onboarding experience: Completely rebuilt from the ground up, the login and start-up experience for the app has been revamped with a vibrant new design.",
+		"Settings: A re-organized settings app, with sub-sections, make it much quicker to find the exact customization options you're looking for.",
+		"Direct Messages: You can now download private images on DMs. Privacy features such as the ability to blur messages and hide other info on the DM column are once again available.",
+		"Patching: Tweeten can now automatically update itself to apply patches when there's a breaking TweetDeck bug, meaning you no longer have to manually download updates from the site. Oh, and, when something is broken and we are aware of the issue, you will be notified on the splash screen of the app so you can rest assured and don't bug us about the broken things while we are busy focusing on fixing it.",
+		"Tweeten is now a single instance application by default, but you can enable multiple instances from settings if you'd like.",
+		"macOS users: Tweeten will no longer bug you about moving the app to the applications folder, and fail to do so when you allow it. Yes, Tweeten can now properly move itself to the applications folder. Finally.",
+		"Design tweaks for the dark and light themes, plus a lot of minor UI fixes throughout the app."
+	]
 	"warning": ""
 }
