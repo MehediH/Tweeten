@@ -1,6 +1,6 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.5.2/tweeten-darwin-x64.zip",
-	"version": "4.5.2",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.5.0/tweeten-darwin-x64.zip",
+	"version": "4.5.0",
 	"message": "A patch for Tweeten 4.5:",
 	"new": [
 		"TweetDeck will release a new update on Monday that is expected to break Tweeten, this patch should help prevent that.",
