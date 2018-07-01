@@ -1,8 +1,10 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.5.0/tweeten-darwin-x64.zip",
-	"version": "4.5.0",
-	"message": "A big new Tweeten update is here. It's almost like a brand new Tweeten. Here's what's new.",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.5.1/tweeten-darwin-x64.zip",
+	"version": "4.5.1",
+	"message": "A patch for Tweeten 4.5:",
 	"new": [
+		"TweetDeck will release a new update on Monday that is expected to break Tweeten, this patch should help prevent that.",
+		"Windows users, the splash screen of Tweeten now shows a Windows device instead of a Mac.",
 		"Say hello to Tweeten Black: A beautiful new dark theme that is full of deep blacks, offering a super sexy tweeting experience that you won't get anywhere else. Now on Tweeten. For free.",
 		"A new onboarding experience: Completely rebuilt from the ground up, the login and start-up experience for the app has been revamped with a vibrant new design.",
 		"Settings: A re-organized settings app, with sub-sections, make it much quicker to find the exact customization options you're looking for.",
