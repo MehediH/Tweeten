@@ -13,5 +13,6 @@
 		"Tweeten is now a single instance application by default, but you can enable multiple instances from settings if you'd like.",
 		"macOS users: Tweeten will no longer bug you about moving the app to the applications folder, and fail to do so when you allow it. Yes, Tweeten can now properly move itself to the applications folder. Finally.",
 		"Design tweaks for the dark and light themes, plus a lot of minor UI fixes throughout the app."
-	]
+	],
+	"warning": "The latest TweetDeck update breaks Tweeten. Please wait for Tweeten to automatically patch itself if you are stuck on the loading screen."
 }
