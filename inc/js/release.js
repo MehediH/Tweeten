@@ -52,7 +52,7 @@ $( document ).ready(function() {
                             mac = downloads[download].browser_download_url;
                         }
 
-                        if(downloads[download].name.includes("TweetenSetup")){
+                        if(downloads[download].name == "TweetenSetup.exe"){
                             w64 = downloads[download].browser_download_url;
                         }
                     }
@@ -121,7 +121,7 @@ $( document ).ready(function() {
                                 mac = downloads[download].browser_download_url;
                             }
 
-                            if(downloads[download].name.includes("TweetenSetup")){
+                            if(downloads[download].name == "TweetenSetup.exe"){
                                 w64 = downloads[download].browser_download_url;
                             }
 
