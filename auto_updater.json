@@ -1,18 +1,13 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/4.5.3/tweeten-darwin-x64.zip",
-	"version": "4.5.3",
-	"message": "A patch for Tweeten 4.5:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/4.6.0/tweeten-darwin-x64.zip",
+	"version": "4.6.0",
+	"message": "A new Tweeten update system is here. And it's AMAZING if you are on Windows.",
 	"new": [
-		"TweetDeck will release a new update on Monday that is expected to break Tweeten, this patch should help prevent that.",
-		"Windows users, the splash screen of Tweeten now shows a Windows device instead of a Mac.",
-		"Say hello to Tweeten Black: A beautiful new dark theme that is full of deep blacks, offering a super sexy tweeting experience that you won't get anywhere else. Now on Tweeten. For free.",
-		"A new onboarding experience: Completely rebuilt from the ground up, the login and start-up experience for the app has been revamped with a vibrant new design.",
-		"Settings: A re-organized settings app, with sub-sections, make it much quicker to find the exact customization options you're looking for.",
-		"Direct Messages: You can now download private images on DMs. Privacy features such as the ability to blur messages and hide other info on the DM column are once again available.",
-		"Patching: Tweeten can now automatically update itself to apply patches when there's a breaking TweetDeck bug, meaning you no longer have to manually download updates from the site. Oh, and, when something is broken and we are aware of the issue, you will be notified on the splash screen of the app so you can rest assured and don't bug us about the broken things while we are busy focusing on fixing it.",
-		"Tweeten is now a single instance application by default, but you can enable multiple instances from settings if you'd like.",
-		"macOS users: Tweeten will no longer bug you about moving the app to the applications folder, and fail to do so when you allow it. Yes, Tweeten can now properly move itself to the applications folder. Finally.",
-		"Design tweaks for the dark and light themes, plus a lot of minor UI fixes throughout the app."
+		"Tweeten's installer on Windows is now down to ~40MB, down from ~160MB 🎉",
+		"Tweeten now supports delta updates for major updates and patches, which means you can now update to the latest version of Tweeten in seconds. Like Flash ⚡",
+		"Tweeten now checks for updates in the background, so when you are running the app for hours and there's a new update released, you can get it installed instantly without having to restart the app to check for updates ✨",
+		"The update system is now more reliable and less prone to crashing 🙌",
+		"Tweeten should now once again be functional on older versions of macOS (e.g. 10.9.5) 😌"
 	],
 	"warning": ""
 }
