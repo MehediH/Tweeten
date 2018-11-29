@@ -1,0 +1,4 @@
+.dark .js-drawer .compose .compose-text-container textarea.bg-color-twitter-white, .dark .js-app .js-column .stream-item .js-inline-reply textarea.bg-color-twitter-white {
+    background-color: #1c1e21 !important;
+    color: #fff;
+}
