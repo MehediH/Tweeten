@@ -7,4 +7,4 @@ Tweeten is a TweetDeck client built for those who get real work done. For those 
 
 ---
 
-*Note: this repository is used for delivering Tweeten updates via GitHub Releases, and for tracking bugs via GitHub Issues, and for hosting the Tweeten website for GitHub pages. Tweeten is NOT an open-source software.*
+*Note: this repository is used for delivering Tweeten updates via GitHub Releases, for tracking bugs via GitHub Issues, and for hosting the Tweeten website for GitHub pages. Tweeten is NOT an open-source software.*
