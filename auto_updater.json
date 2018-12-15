@@ -1,11 +1,14 @@
 {
 	"url": "https://github.com/MehediH/Tweeten/releases/download/v4.6.4/tweeten-darwin-x64.zip",
 	"version": "4.6.4",
-	"message": "Tweeten 4.6.3 fixes some major installation-related issues:",
+	"message": "Happy Holidays! Tweeten 4.6.4 is here with some sweet, sweet goodies:",
 	"new": [
-		"UI fixes for Tweeten Blck, Dark, and Light.",
-		"Fixes an issue where users couldn't update from older versions (4.5.3 and older)",
-		"Fixes an issue where users couldn't update from 4.6.0 to newer versions"
+		"A new, holiday-themed welcome screen for the season.",
+		"Hotfixes are now theme-specific.",
+		"You can now share certain columns like lists, collections, etc.",
+		"Tweeten now checks for new updates every 30 minutes",
+		"Fixed an issue where Tweeten would show a message notifying users they are up to date every hour",
+		"Bunch of sweet, sweet UI fixes"
 	],
 	"warning": "If Tweeten fails to update for you and you are not runnning version 4.6.3, please update manually from the website here."
 }
