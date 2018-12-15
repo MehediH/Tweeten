@@ -10,5 +10,5 @@
 		"Fixed an issue where Tweeten would show a message notifying users they are up to date every hour",
 		"Bunch of sweet, sweet UI fixes"
 	],
-	"warning": "If Tweeten fails to update for you and you are not runnning version 4.6.3, please update manually from the website here."
+	"warning": ""
 }
