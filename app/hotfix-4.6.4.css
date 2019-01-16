@@ -14,3 +14,8 @@
 .is-condensed .app-content{
   left: 50px !important;
 }
+
+.is-condensed .js-app-header .js-search{
+  width: 50px !important;
+  top: 45px !important;
+}
