@@ -1,0 +1,7 @@
+.js-app-header .app-navigator .app-nav-link[data-action=change-sidebar-width]::after{
+  height: 49px !important;
+ }
+ 
+ html .app-header.is-condensed .app-header-inner, html .is-condensed .app-header{
+  width: 50px !important;
+ }
