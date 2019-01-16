@@ -7,8 +7,8 @@
  }
 
 .drawer{
-  width: 280px !important;
-  left: -280px !important;
+  width: 270px !important;
+  left: -270px !important;
 }
 
 .is-condensed .app-content{
@@ -19,3 +19,7 @@
   width: 50px !important;
   top: 45px !important;
 }
+
+.margin-t--8.tweet-button{
+        margin-top: 0px !important;
+    }
