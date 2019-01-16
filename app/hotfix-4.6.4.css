@@ -10,3 +10,7 @@
   width: 280px !important;
   left: -280px !important;
 }
+
+.is-condensed .app-content{
+  left: 50px !important;
+}
