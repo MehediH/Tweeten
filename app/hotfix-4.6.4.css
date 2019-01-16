@@ -5,3 +5,8 @@
  html .app-header.is-condensed .app-header-inner, html .is-condensed .app-header{
   width: 50px !important;
  }
+
+.drawer{
+  width: 280px !important;
+  left: -280px !important;
+}
