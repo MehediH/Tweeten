@@ -2,6 +2,6 @@
             height: 63px !important;
 }
 
-.js-app-header .column-navigator .js-column-nav-list li{
+.is-condensed .column-navigator .js-column-nav-list li{
             width: 50px !important;
 }
