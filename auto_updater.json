@@ -1,12 +1,10 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v4.6.6/tweeten-darwin-x64.zip",
-	"version": "4.6.6",
-	"message": "Tweeten 4.6.7 is here with some minor fixes:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v4.6.8/tweeten-darwin-x64.zip",
+	"version": "4.6.8",
+	"message": "Tweeten 4.6.8 is here with some minor fixes:",
 	"new": [
-		"Minor UI fixes",
-		"Fixes a memory leak caused by the updater",
-		"Removes the holiday season theme",
-		"Updates the link in About to builtbymeh.com"
+		"Brings back Emoji picker",
+		"Brings back GIF Search"
 	],
 	"warning": ""
 }
