@@ -1,0 +1,4 @@
+.js-drawer.drawer.wide {
+    width: 400px !important;
+    left: -400px !important;
+}
