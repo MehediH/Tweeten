@@ -2,3 +2,16 @@
     width: 400px !important;
     left: -400px !important;
 }
+
+.js-hide-drawer {
+    margin-right: 28px !important;
+    margin-top: 10px !important;
+}
+
+.js-compose-controls{
+    margin-top: 50px;
+}
+
+.js-app-header .js-search{
+    top: 0px !important;
+}
