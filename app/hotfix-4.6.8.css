@@ -16,8 +16,8 @@
 	height: 48px !important;
 }
 
-.hide-detail-view-inline .js-app-header .js-search{
-    top: 12px !important;
+.js-app-header .js-search{
+    top: 0px !important;
 }
 
 html.dark .old-composer-footer .new-composer-opt-in {
@@ -33,8 +33,10 @@ html.dark .old-composer-footer .new-composer-opt-in:hover{
 
 html.dark .old-composer-footer {
     background-color: #17191b;
+border: 0px !important;
 }
 
 .js-drawer .compose .js-add-image-button {
     width: 95% !important;
 }
+
