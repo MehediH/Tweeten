@@ -1,9 +1,10 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v4.6.9/tweeten-darwin-x64.zip",
-	"version": "4.6.9",
-	"message": "Tweeten 4.6.9 is here with some minor fixes:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v4.7.0/tweeten-darwin-x64.zip",
+	"version": "4.7.0",
+	"message": "Tweeten 4.7.0 is here with some minor fixes:",
 	"new": [
-		"Added compatability for the new opt-in composer"
+		"GIF Search once again works",
+		"Video downloads should work as usual" 
 	],
 	"warning": ""
 }
