@@ -1,5 +1,5 @@
 @media (min-width: 640px){
   .tweeten-custom-titlebar .is-condensed .tweeten-compose-ccontrol .js-hide-drawer {
-     margin: 10px 5px 20px 20px !important;
+     margin: 0px !important;
   }
 }
