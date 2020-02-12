@@ -55,7 +55,16 @@ $( document ).ready(function() {
                 if($(this).attr("href") == ""){
 
                     if($(this)[0].textContent.includes("macOS")){
-                        $(this).attr("href", mac) 
+                        if (mac == ""){
+                            fetch('https://raw.githubusercontent.com/MehediH/Tweeten/master/auto_updater.json').then((response) => {
+                                return response.json();
+                            }).then((latestMac) => {
+                                $(this).attr("href", latestMac.url)
+                            });
+                        } else{
+                            $(this).attr("href", mac)
+                        }
+                         
                     }
 
                     if($(this)[0].textContent.includes("64-bit")){
