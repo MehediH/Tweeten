@@ -11,6 +11,7 @@ $font: 'circulartweeten', 'Montserrat', sans-serif;
 }
 
 
+
 img {
     -khtml-user-select: none;
     -o-user-select: none;
@@ -315,13 +316,7 @@ header {
         li {
             background-color: transparent !important;
         }
-        .feature-switcher {
-            display: block !important;
-            li {
-                width: 100% !important;
-                margin: 0px !important;
-            }
-        }
+        
     }
 }
 
@@ -422,37 +417,21 @@ header {
         position: relative;
         margin-bottom: 0px;
         display: -webkit-flex;
-        display: flex;
-        -webkit-flex-direction: row;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+
         li {
-            width: 33.33%;
-            float: left;
             padding-bottom: 5px;
             padding-right: 5px;
-            flex-grow: 1;
             background-color: #f2f2f2;
             margin-right: 5px;
             margin-bottom: 5px;
-            img {
-                width: 60%;
-                float: right;
-            }
-            .deets {
-                position: absolute;
-                right: 0;
-                top: 0;
-                display: none;
-                padding: 0 10px;
-                img {
-                    width: 100%;
-                }
-            }
+         
             .meta {
-                width: 100%;
                 transition: 0.1s all ease-in-out;
                 padding: 15px;
-                flex-basis: 100%;
+                
                 h2 {
                     font-size: 18px;
                     font-weight: 300;
