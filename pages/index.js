@@ -1,16 +1,20 @@
 import Head from 'next/head'
+import { useRouter } from "next/router"
+
 import FeatureCard from "../components/featureCard";
 import FeatureHighlight from "../components/featureHighlight";
+import DownloadLinks from "../components/downloadLinks";
+import Footer from "../components/footer"
 
 import { getLatestRelease } from "../lib/releases";
-import DownloadLinks from "../components/DownloadLinks";
 
 import { useEffect, useState } from 'react'
 import Typed from 'typed.js'
 
 export default function Home({latestReleaseLinks}) {
+  const router = useRouter()
   const [isCompMounted, setCompMonuted] = useState(false)
-  
+
   useEffect(() => setCompMonuted(true), [])
 
   if(isCompMounted){
@@ -19,13 +23,13 @@ export default function Home({latestReleaseLinks}) {
       typeSpeed: 20,
       backSpeed: 15,
       onComplete: () => {
+        if(!document.querySelector(".typed-cursor")){ return; }
         document.querySelector(".typed-cursor").style.display = "none";
       }
     };
     
-    new Typed('.slog', options);
-  }
-
+    let t = new Typed('.slog', options);
+  } 
 
   return (
     <>
@@ -170,19 +174,7 @@ export default function Home({latestReleaseLinks}) {
             <DownloadLinks {...latestReleaseLinks}/>
         </div>
 
-        <footer className="container">
-            <div className="inner">
-                
-                <ul>
-                    <li><a href="http://tweetenapp.com/donate">Donate</a></li>
-                    <li><a href="http://tweetenapp.com/releases">Release Notes</a></li>
-                    <li><a href="https://blog.tweetenapp.com/">Blog</a></li>
-                    <li><a href="https://twitter.com/tweetenapp">Follow us</a></li>
-                </ul>
-
-                <p>Tweeten is built with <span className="heart">❤</span> in London by <a href="https://builtbymeh.com">Mehedi Hassan.</a></p>
-            </div>
-        </footer>
+        <Footer currentPage={router.pathname}/>
     </>
   )
 }
