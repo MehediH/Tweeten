@@ -1,1 +1,0 @@
-sass --watch ./src:./inc/css

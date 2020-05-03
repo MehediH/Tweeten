@@ -1,7 +1,0 @@
-.app-nav-link[data-action="change-sidebar-width"]{
-            height: 63px !important;
-}
-
-.is-condensed .column-navigator .js-column-nav-list li{
-            width: 50px !important;
-}
