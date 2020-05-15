@@ -7,5 +7,5 @@
 		"Video downloads should work as usual" 
 	],
 	"warning": "Testing, please ignore",
-	"hideWarningOn": ["5.0.3-win32", "5.0.3-darwin"]
+	"hideWarningOn": ["5.0.3-darwin"]
 }
