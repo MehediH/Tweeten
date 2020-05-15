@@ -6,5 +6,6 @@
 		"GIF Search once again works",
 		"Video downloads should work as usual" 
 	],
-	"warning": ""
+	"warning": "",
+	"hideWarningOn": ["5.0.3-win32", "5.0.3-darwin"]
 }
