@@ -12,3 +12,7 @@
 .attach-compose-buttons .Button.tweet-button, html.dark .attach-compose-buttons button.tweet-button, html.dark .attach-compose-buttons input.tweet-button[type=button]{
      top: 5px !important;
 }
+
+.js-modal .js-mediatable .med-fullpanel video{
+  pointer-events: auto !important;
+}
