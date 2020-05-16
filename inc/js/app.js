@@ -7,7 +7,7 @@ $( document ).ready(function() {
 
     let isSafari = /^((?!chrome|android).)*safari/i.test(ua);
 
-    if (navigator.platform.indexOf('Mac') > -1 && !isSafari){
+    if (navigator.platform.indexOf('Mac') > -1){
         $("#download .mac").fadeIn();
     }
 
@@ -82,4 +82,13 @@ $( document ).ready(function() {
             })
         }
      });
+
+     $("#download .mac em").on("click", (e) => {
+         $("#download .tutorial").slideToggle();
+         $("#download img").toggle()
+
+         setTimeout(() => {
+             document.querySelector("#download blockquote iframe").scrollIntoView({ behavior: 'smooth' })
+         }, 300)
+     })
 });

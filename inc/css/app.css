@@ -4263,18 +4263,18 @@ header .donate:hover {
   width: 50%;
   float: right;
 }
-#download ul {
+#download ul.dl {
   list-style-type: none;
   padding: 0px;
   margin: 10px 0;
   overflow: hidden;
 }
-#download ul li {
+#download ul.dl li {
   float: left;
   width: 33.33%;
   margin-bottom: 5px;
 }
-#download ul li a {
+#download ul.dl li a {
   background-color: #0078D7;
   padding: 10px;
   color: #fff;
@@ -4284,8 +4284,46 @@ header .donate:hover {
   overflow: hidden;
   transition: 0.1s all ease-in-out;
 }
-#download ul li a:hover {
+#download ul.dl li a:hover {
   background-color: #006abe;
+}
+#download .tutorial {
+  display: none;
+}
+#download .tutorial .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+#download .tutorial .embed-container iframe,
+#download .tutorial .embed-container object,
+#download .tutorial .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#download .tutorial blockquote {
+  background-color: #e9eaed;
+  overflow: hidden;
+}
+#download .tutorial blockquote iframe {
+  width: 100%;
+  height: auto;
+}
+#download .tutorial blockquote .inner {
+  padding: 20px;
+}
+#download .tutorial blockquote em {
+  background-color: #c3c2c2;
+  color: #000;
+  padding: 2px 5px;
+  margin-right: 10px;
+  font-family: "Lucida Console", Courier, monospace;
+  font-style: normal;
 }
 #download .mac {
   display: none;
@@ -4295,6 +4333,15 @@ header .donate:hover {
   color: #fff;
   padding: 2px 10px;
   margin-right: 10px;
+}
+#download .mac em {
+  color: #0078D7;
+  font-style: normal;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+#download .mac em:hover {
+  opacity: 0.75;
 }
 
 footer {
