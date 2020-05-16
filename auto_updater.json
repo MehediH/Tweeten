@@ -10,6 +10,6 @@
 		"[macOS] Improved Touch Bar integration",
 		"[Windows] Fixed the issue where the option for \"Update download path when saved to a different location\" did not work as expected"
 	],
-	"warning": "Please update the newest version of Tweeten from the official site at tweetenapp.com",
+	"warning": "Please update to the newest version of Tweeten from the official site at tweetenapp.com",
 	"hideWarningOn": ["5.0.3-darwin", "5.0.3-win32"]
 }
