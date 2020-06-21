@@ -4408,6 +4408,11 @@ footer ul li a:hover {
   position: relative;
 }
 
+.privacy {
+  padding: 15px;
+  margin-top: 20px;
+}
+
 .indicator {
   margin-top: 60px;
 }
