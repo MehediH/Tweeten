@@ -1,15 +1,13 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.0.3/tweeten-darwin-x64.zip",
-	"version": "5.0.3",
-	"message": "Tweeten 5.0.3 is here with a new update system and other general fixes:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.0.4/tweeten-darwin-x64.zip",
+	"version": "5.0.4",
+	"message": "Tweeten 5.0.4 is here with some general fixes:",
 	"new": [
-		"New, reliable update system -- completely rebuilt from the roundup and now shows update size, update progress, and the download speed for updates",
-		"Fixed the \"automatically pause GIFs in column\" option",
-		"Fixed an issue with the video player where opening a video would not automatically start playing the video",
-		"Fixed the \"Download Video\" button",
-		"[macOS] Improved Touch Bar integration",
-		"[Windows] Fixed the issue where the option for \"Update download path when saved to a different location\" did not work as expected"
+		"For Windows users, the app state management has been completely rebuilt to be more reliable, especially with multi-monitor setups.",
+		"Theme syncing with your TweetDeck theme no longer requires a full restart of the app.",
+		"For macOS users, the 'Move to Applications folder' dialog has been fixed.",
+		"Added donation link to the app bar."
 	],
 	"warning": "Please update to the newest version of Tweeten from the official site at tweetenapp.com",
-	"hideWarningOn": ["5.0.3-darwin", "5.0.3-win32"]
+	"hideWarningOn": ["5.0.3-darwin", "5.0.3-win32", "5.0.4-darwin", "5.0.4-win32"]
 }
