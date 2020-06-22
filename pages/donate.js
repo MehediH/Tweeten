@@ -1,32 +1,50 @@
 import Link from "next/link"
-import { useRouter } from "next/router"
-import Footer from "../components/footer"
+import PageWrap from "../components/pageWrap";
+import styles from "../styles/donate.module.scss";
+
+import { FaPatreon, FaPaypal, FaGithub, FaCoffee } from "react-icons/fa";
 
 export default function Donate(){
-    const router = useRouter();
 
     return (
-        <>
-            <header>
-                <div class="inner container">
-                    <Link href="/">
-                        <a title="Tweeten, an intuitive and powerful Twitter experience built for those who get real work done">
-                            <img src="./images/logo.png"/>
-                        </a>
-                    </Link>
-                    <div class="main">
-                        <h1 class="donthide">Support Tweeten</h1>
-                        <p>A lot of work goes into designing and developing Tweeten. I have been developing Tweeten for almost 2 years, spending hours and hours of my time into making a better TweetDeck experience for everyone without charging a single penny. But to keep developing Tweeten in the future, adding new features, and improving existing ones, a small donation from you would be very much appreciated!</p>
-                    </div>
+      <PageWrap>
+        <img src="./images/donate.png" className={styles.hero} draggable={false}/>
+        <div className={styles.content}>
+          <h1>Support Tweeten's Development</h1>
+          <p>
+            A lot of work goes into designing and developing Tweeten. Designing, developing, and maintaing
+            the project takes hours of work. Tweeten has been a free product since the beginning, and I tend to
+            keep it that way for many more years to come.
+        </p>
+          <p>If you love using Tweeten and want to support the app's development, a small donation would be much appreciated.
+          Tweeten is used by thousands of people, and a small donation for even 50% of the users will help me out financially.
+          As a student, I rely heavily on student loans and your donation would mean a lot!
+        </p>
 
-                    <div class="donate-container">
-                        <a class="donate" href="https://www.paypal.me/MehediHa/15">Donate Using PayPal</a>
-                        <a class="donate" href="https://www.patreon.com/tweeten">Donate via Patreon</a>
-                    </div>
-                </div>
-            </header><br/><br/><br/>
+          <p>You can donate using any of the different services below:</p>
 
-            <Footer currentPage={router.pathname}/>
-        </>
-    )
+          <div className={styles.donationLinks}>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.me/MehediHa/15">
+              <FaPaypal/>
+              PayPal
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.patreon.com/tweeten">
+              <FaPatreon/>
+              Patreon
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.patreon.com/tweeten">
+              <FaGithub/>
+              GitHub Sponsors
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/mehedi">
+              <FaCoffee/>
+              Ko-fi
+            </a>
+          </div>
+
+          <p>Thank you so much for using Tweeten.</p>
+          <p>Mehedi Hassan<br />Creator of Tweeten</p>
+        </div>
+      </PageWrap>
+    );
 }

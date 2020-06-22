@@ -1,0 +1,38 @@
+header.min{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 50px;
+        display: inline-block;
+        transition: 0.3s all ease-in-out;
+
+        &:hover{
+            opacity: 0.75;
+        }
+    }
+
+    .nav{
+        list-style-type: none;
+        padding: 0px;
+        display: flex;
+
+        li{
+            margin-left: 15px;
+            text-transform: uppercase;
+            font-size: 15px;
+            
+            a{
+                color: #000;
+                text-decoration: none;
+                transition: 0.3s all ease-in-out;
+
+                &:hover{
+                    color: var(--accent);
+                }
+            }
+
+        }
+    }
+}
