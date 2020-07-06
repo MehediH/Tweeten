@@ -1,13 +1,14 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.0.4/tweeten-darwin-x64.zip",
-	"version": "5.0.4",
-	"message": "Tweeten 5.0.4 is here with some general fixes:",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.0.5/tweeten-darwin-x64.zip",
+	"version": "5.0.5",
+	"message": "Tweeten 5.0.5 is now out with a couple of new features:",
 	"new": [
-		"For Windows users, the app state management has been completely rebuilt to be more reliable, especially with multi-monitor setups.",
-		"Theme syncing with your TweetDeck theme no longer requires a full restart of the app.",
-		"For macOS users, the 'Move to Applications folder' dialog has been fixed.",
-		"Added donation link to the app bar."
+		"Improved Search: search results column now appear at the beginning of your columns list, instead of moving to the end.",
+		"You can now quickly remove a search results column with the new remove button at the column header.",
+		"You can now display quick action buttons for clearing and removing a column on column headers.", 
+		"Fixed an issue where the settings confirmation dialog was preventing users from saving/closing the settings window.",
+		"Windows: Fixed a number of issues with state management and DPI support for those with multi-monitors."
 	],
 	"warning": "Please update to the newest version of Tweeten from the official site at tweetenapp.com",
-	"hideWarningOn": ["5.0.3-darwin", "5.0.3-win32", "5.0.4-darwin", "5.0.4-win32"]
+	"hideWarningOn": ["5.0.4-darwin", "5.0.4-win32", "5.0.5-darwin", "5.0.5-win32"]
 }
