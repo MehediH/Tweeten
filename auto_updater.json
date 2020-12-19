@@ -1,13 +1,16 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.1.0/tweeten-darwin-x64.zip",
-	"version": "5.1.0",
-	"message": "Tweeten 5.1 is now out with new Tweeten pickers!",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.2.0/tweeten-darwin-x64.zip",
+	"version": "5.2.0",
+	"message": "Tweeten 5.2 is now out with new features!",
 	"new": [
-		"Say hello to the new Tweeten pickers: completely rebuilt the Emoji and GIF pickers from the ground-up with new features, options, shortcuts, and design. ",
-		"Accessibility: Tweeten can now automatically prompt you to add image descriptions whenever you are adding a new image. The feature is disabled by default, but you can enable it under Settings > App to help make Twitter more accessible to everyone.",
-		"Support Tweeten: Testing a new, less intrusive 'Support Tweeten' message that’s much easier on the eyes, and takes up less space. This is just a test and maybe reverted in the future.", 
-		"Fixed the interface for the Trending column, and some other minor issues."
+		"Native emoji picker: you can now use your operating system's native emoji picker. If you are on Windows 10, this new emoji picker will give you access to Kamoji!",
+		"Spellchecker: Tweeten's spellchecker is now powered by Windows Spellcheck in Windows 10 and the native spellchecker in macOS, allowing for improved accuracy and faster spellchecking.",
+		"Right-click menu: the context menu has been re-implemented to be more reliable, though most of the functionalities remain the same. You can now open media directly in a browser instead of opening the tweet first, Options related to images and GIFs in the context menu now work when you right-click on a tweet from a column, instead of having to open the tweet/picture first. You can also now download videos from the context menu, but you will have to first open the tweet or the video.",
+		"Tweeten emoji picker: the built-in emoji picker in Tweeten has now been improved to let you insert emojis exactly where your cursor is instead of just adding them to the end of your tweet. Also fixed an issue where emojis wouldn't actually get added to the compose box.",
+		"Login/logout: Tweeten's login/logout flow has been re-written. Note: if you close the app during the login, an error will appear. This will be fixed in a future release.",
+		"Pasting images from clipboard: When you had multiple compose boxes opened, Tweeten would fail to paste images from the clipboard to the right compose box. This has now been fixed.",
+		"Additional accounts: Fixed an issue where the 'Link another account you own' option wouldn't show up on the light theme"
 	],
 	"warning": "Please update to the newest version of Tweeten from the official site at tweetenapp.com",
-	"hideWarningOn": ["5.0.5-darwin", "5.0.5-win32", "5.1.0-darwin", "5.1.0-win32"]
+	"hideWarningOn": ["5.1.0-darwin", "5.1.0-win32",  "5.2.0-darwin", "5.2.0-win32"]
 }
