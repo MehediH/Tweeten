@@ -1,6 +1,6 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.2.0/tweeten-darwin-x64.zip",
-	"version": "5.2.0",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.2.1/tweeten-darwin-x64.zip",
+	"version": "5.2.1",
 	"message": "Tweeten 5.2 is now out with new features!",
 	"new": [
 		"Native emoji picker: you can now use your operating system's native emoji picker. If you are on Windows 10, this new emoji picker will give you access to Kamoji!",
@@ -12,5 +12,5 @@
 		"Additional accounts: Fixed an issue where the 'Link another account you own' option wouldn't show up on the light theme"
 	],
 	"warning": "Please update to the newest version of Tweeten from the official site at tweetenapp.com",
-	"hideWarningOn": ["5.1.0-darwin", "5.1.0-win32",  "5.2.0-darwin", "5.2.0-win32"]
+	"hideWarningOn": ["5.1.0-darwin", "5.1.0-win32",  "5.2.0-darwin", "5.2.0-win32",  "5.2.1-darwin", "5.2.1-win32"]
 }
