@@ -11,6 +11,6 @@
 		"Pasting images from clipboard: When you had multiple compose boxes opened, Tweeten would fail to paste images from the clipboard to the right compose box. This has now been fixed.",
 		"Additional accounts: Fixed an issue where the 'Link another account you own' option wouldn't show up on the light theme"
 	],
-	"warning": "Please update to the newest version of Tweeten from the official site at tweetenapp.com",
+	"warning": "Please update to the newest version of Tweeten :)",
 	"hideWarningOn": ["5.2.1-darwin", "5.2.1-win32"]
 }
