@@ -1,22 +1,17 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.3.0/tweeten-darwin-x64.zip",
-	"version": "5.3.0",
-	"message": "Tweeten 5.3.0 is now out with new features!",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.4.0/tweeten-darwin-x64.zip",
+	"version": "5.4.0",
+	"message": "After 5 years, Tweten has a new logo!",
 	"new": [
-		"Settings has sbeen completely redesigned", 
-		"Instant theme changes without reloading",
-		"Ability to sync Tweeten theme with your OS theme",
-		"Custom CSS now uses the same editor (i.e. Monaco) as Visual Studio Code so you can now custom CSS for Tweeten with syntax highlighting and more. You can now see changes in effect instantly, too.",
-		"Muted words and filters have been moved out of settings",
-		"Apple Silicon support",
-		"You can now display column icons in the column headers",
-		"You can now grab the top-left corner of columns to move them around and re-order the layout",
-		"You can now display a separator between tweets",
-		"Clear column icon has been updated to be less confusing.",
-		"Fixed an issue where the app wouldn't close from the custom titlebar in Windows",
-		"Fixed an issue with Hardware Acceleration — please turn off hardware acceleration if you experience frame drops"
-		
+		"Compact RT modal: when retweeting, the RT modal will no longer take up the whole screen. Instead, you will see a compact modal that is much easier and quicker to access.",
+		"Fixed an issue where Tweeten would not release the video lock after watching a video, preventing monitors from going to sleep",
+		"Fixed an issue where Tweeten was checking for app updates even if automatic updates were disabled in Settings"
 	],
 	"warning": "Please update to the newest version of Tweeten :)",
-	"hideWarningOn": ["5.2.1-darwin", "5.2.1-win32", "5.3.0-darwin", "5.3.0-win32"]
+	"hideWarningOn": [
+		"5.3.0-darwin",
+		"5.3.0-win32",
+		"5.4.0-darwin",
+		"5.4.0-win32"
+	]
 }
