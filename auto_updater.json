@@ -1,17 +1,15 @@
 {
-	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.4.0/tweeten-darwin-x64.zip",
-	"version": "5.4.0",
-	"message": "After 5 years, Tweten has a new logo!",
+	"url": "https://github.com/MehediH/Tweeten/releases/download/v5.5.0/tweeten-darwin-x64.zip",
+	"version": "5.5.0",
+	"message": "Tweeten 5.5.0 introduces new Tweeten Notifications feature and more!",
 	"new": [
-		"Compact RT modal: when retweeting, the RT modal will no longer take up the whole screen. Instead, you will see a compact modal that is much easier and quicker to access.",
-		"Fixed an issue where Tweeten would not release the video lock after watching a video, preventing monitors from going to sleep",
-		"Fixed an issue where Tweeten was checking for app updates even if automatic updates were disabled in Settings"
+		"Tweeten Notifications"
 	],
 	"warning": "Please update to the newest version of Tweeten :)",
 	"hideWarningOn": [
-		"5.3.0-darwin",
-		"5.3.0-win32",
 		"5.4.0-darwin",
-		"5.4.0-win32"
+		"5.4.0-win32",
+		"5.5.0-darwin",
+		"5.5.0-win32"
 	]
 }
