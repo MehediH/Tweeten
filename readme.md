@@ -1,4 +1,7 @@
-# Tweeten
+# [A message about Tweeten's future](https://github.com/MehediH/Tweeten/discussions/327)
+
+---
+## Tweeten
 ---
 
 Tweeten is a TweetDeck client built for those who get real work done. For those who are on Twitter 24/7. For those who simply want more. For those who live for the dank memes. For those who want a better TweetDeck. Built on Electron.
